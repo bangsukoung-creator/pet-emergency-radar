@@ -2,7 +2,7 @@
 const emergencyData = {
   dog: {
     title: '강아지 응급처치',
-    image: '/assets/images/dog_main.jpg',
+    image: './assets/images/dog_main.jpg',
     steps: [
       {
         number: '1',
@@ -33,7 +33,7 @@ const emergencyData = {
   },
   cat: {
     title: '고양이 응급처치',
-    image: '/assets/images/cat_main.jpg',
+    image: './assets/images/cat_main.jpg',
     steps: [
       {
         number: '1',
@@ -85,7 +85,7 @@ function renderMainScreen() {
         <h1 class="app-title">펫 응급 레이더</h1>
       </div>
       <div class="main-content">
-        <img src="/assets/images/hero.png" alt="펫 응급 레이더 - 강아지와 고양이" class="hero-image">
+        <img src="./assets/images/hero.png" alt="펫 응급 레이더 - 강아지와 고양이" class="hero-image">
         <div class="button-group">
           <button class="btn-primary" onclick="showScreen('dog')">
             🐕 강아지 응급처치 보기
