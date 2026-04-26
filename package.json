@@ -1,0 +1,14 @@
+{
+  "name": "pet-emergency-radar",
+  "version": "1.0.0",
+  "description": "펫 응급 레이더 - Pet Emergency First Aid Web App",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
